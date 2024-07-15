@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 90;
+    padding: 0;
+    background: url('imagen/foto.jpeg')no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+header {
+    background-color: rgba(47, 0, 255, 0.8);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+#cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.curso {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 1rem;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+}
+
+.curso h3 {
+    margin-top: 0;
+}
+
+button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
